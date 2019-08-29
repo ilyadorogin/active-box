@@ -1,0 +1,233 @@
+@media screen and (max-width: 1170px) {
+	.container {
+		padding: 0 20px;
+	}
+	.workers-item {
+		width: 40%;
+	}
+
+
+}
+
+@media screen and (max-width: 1024px) {
+	.galery img {
+		width: 49%;
+		height: 200px;
+	}
+}
+
+@media screen and (max-width: 930px) {
+	nav {
+		flex-direction: column;
+		align-items: center;
+		margin-top: 10px;
+		padding-top: 10px;
+	}
+
+	.info-item {
+		margin: 0 15px 20px;
+	}
+
+	.header-content h1 {
+		font-size: 40px;
+		margin: 50px 0 0; 
+	}
+	
+	.header-content p {
+		font-size: 15px;
+	}
+
+	header {
+		height: 100vh;
+	}
+
+	.quotes-container {
+		height: 360px;
+	}
+
+	.quote h3 {
+		font-size: 24px;
+	}
+
+	.quote h4 {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 675px) {
+	nav ul li {
+		margin-left: 20px;
+		font-size: 10px;
+	}
+
+	nav {
+		height: auto;
+	}
+	
+	.quotes-container img {
+		display: none;
+	}
+
+	.quote {
+		background: url(../img/quote.png);
+		background-size: cover;
+		max-width: none;
+		padding: 0;
+		width: 100%;
+		padding: 0 20px;
+	}
+
+	/*.quote h3, .quote h4 {
+		color: #000;
+	}*/
+
+	.download-here {
+		height: 220px;
+	}
+
+	.download-here h3 {
+		font-size: 22px;
+	}
+
+	.download-here p {
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.info-item {
+		margin: 0 0 30px;
+	}
+
+	.workers {
+		flex-direction: column;
+	}
+	
+	.workers-item h3, .workers-item h4, .workers-item p {
+		margin-top: 5px;
+	}
+
+}
+
+@media screen and (max-width: 627px) {
+	.info-item h3 {
+		margin-top: 15px;
+	}
+	.info-item p {
+		margin-top: 10px;
+	}
+	.advantages {
+		margin: 56px 0;
+	}
+}
+
+@media screen and (max-width: 578px) {
+	.header-content h1 {
+		font-size: 26px;
+		margin: 60px 0 0; 
+		line-height: 40px;
+	}
+	
+	.header-content p {
+		font-size: 12px;
+		line-height: 26px;
+	}
+
+	.footer-up {
+		flex-direction: column-reverse;
+		height: auto;
+		padding: 5px 0;
+	}
+
+	footer h3 {
+		display: none;
+	}
+
+	footer p {
+		font-size: 9px;
+	}
+
+	#about {
+		display: none;
+	}
+
+	.footer-social {
+		margin-bottom: 10px;
+	}
+
+	.footer-down {
+		height: auto;
+		padding: 5px 0;
+	}
+
+	.download-here h3 {
+		font-size: 16px;
+	}
+
+	.download-here p {
+		margin-top: 9px; 
+	}
+
+	#download-button {
+		margin-top: 16px;
+	}
+}
+
+
+@media screen and (max-width: 400px) {
+	nav ul li {
+		margin-left: 20px;
+	}
+
+	nav ul li {
+		display: block;
+		margin: 3px 0;
+		font-size: 10px;
+	}
+	nav ul {
+		flex-direction: column;
+		
+	}
+
+	nav {
+		height: auto;
+	}
+
+	.header-content h1 {
+		font-size: 20px;
+		margin: 20px 0 0; 
+		line-height: 35px;
+	}
+	
+	.header-content p {
+		font-size: 12px;
+		line-height: 24px;
+	}
+
+	.galery img {
+		width: 100%;
+	}
+
+	.download-here h3 {
+		font-size: 20px;
+		width: 280px;
+	}
+
+	.download-here p {
+		margin-top: 9px; 
+	}
+
+	#download-button {
+		margin-top: 16px;
+	}
+
+	.download-here {
+		height: auto;
+		margin: 10px 0;
+		text-align: center; 
+	}
+
+	.container {
+    padding: 0;
+}
+}
